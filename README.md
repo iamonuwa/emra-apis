@@ -23,22 +23,21 @@ EMRA provides you with an web and mobile application that are highly intuitive, 
 1. PHP 5.6 +
 
 ```
-git clone https://iamonuwa@bitbucket.org/namminodejs/nammi-admin.git
-cd emra-api
+git clone https://github.com/iamonuwa/emra-apis.git
+cd emra-apis
 composer install
 php artisan serve
 ```
 
 ## Built With
 
-* [JWT Tymon](https://angularjs.org/) - Javascript framework
-* [Firebase](https://firebase.google.com/) - Realtime APIs
-* [CoreUI](http://coreui.io/) - Bootstrap v4
-* [Gulp](http://gulpjs.com/) - Frontend build automation
+* [JWT Tymon](https://github.com/tymondesigns/jwt-auth) - JSON Web Token Authentication for Laravel & Lumen
+* [Guzzlehttp](https://github.com/guzzle/guzzle) - Guzzle is a PHP HTTP client that makes it easy to send HTTP requests and trivial to integrate with web services.
+* [DCN RBC](https://github.com/mbm-rafal/RBAC) - Powerful package for handling roles and permissions in Laravel 5.3
 
 ## Author
 
-* **ShareQube** - [Shareqube](https://shareqube.com)
+* **Onuwa Nnachi Isaac** - [Onuwa Nnachi Isaac](https://iamonuwa.github.io)
 
 ## License
 
