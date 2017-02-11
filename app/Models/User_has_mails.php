@@ -4,10 +4,9 @@ namespace App\Models;
 
 use Illuminate\Database\Eloquent\Model;
 
-class Mails extends Model
+class User_has_mails extends Model
 {
     protected $fillable = [
-        'mail_key', 'title', 'content', 'cc', 'bcc', 'attachments'
+    	'author', 'receipient', 'parent', 'mail'
     ];
 }
-

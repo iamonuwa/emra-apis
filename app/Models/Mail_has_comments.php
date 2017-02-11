@@ -4,10 +4,10 @@ namespace App\Models;
 
 use Illuminate\Database\Eloquent\Model;
 
-class Mails extends Model
+class Mail_has_comments extends Model
 {
     protected $fillable = [
-        'mail_key', 'title', 'content', 'cc', 'bcc', 'attachments'
+    	'author', 'receipient', 'mail', 'comment'
     ];
 }
 
